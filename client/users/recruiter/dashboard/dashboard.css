@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  margin: 0;
+  padding: 0;
+}
+
+.recruiter-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Post Job Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+form input, form select {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0288d1;
+  color: #fff;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #01579b;
+}
+
+/* Job Cards */
+.job-card {
+  background-color: #e0f7fa;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.job-card h3 {
+  margin-top: 0;
+  color: #00796b;
+}
+
+.job-card p {
+  margin: 5px 0;
+}
+
+.job-card button {
+  margin-right: 10px;
+  margin-top: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00796b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.job-card button:hover {
+  background-color: #004d40;
+}
+
+.job-card .view-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-top: 8px;
+  border-radius: 5px;
+  background-color: #0288d1;
+  color: #fff;
+  text-decoration: none;
+}
+
+.job-card .view-btn:hover {
+  background-color: #01579b;
+}
+
+/* Section spacing */
+.section {
+  margin-bottom: 40px;
+}

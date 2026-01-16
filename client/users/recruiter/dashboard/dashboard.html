@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruiter Dashboard - SkillBridge</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+  <div class="recruiter-container">
+    <h1>Welcome, Recruiter 👋</h1>
+
+    <!-- Section 1: Post Job -->
+    <div class="section" id="postJobSection">
+      <h2>Post a New Job</h2>
+      <form>
+        <label>Job Title:</label>
+        <input type="text" placeholder="Frontend Developer">
+
+        <label>Required Skills:</label>
+        <input type="text" placeholder="HTML, CSS, JavaScript">
+
+        <label>Experience Level:</label>
+        <select>
+          <option>Internship</option>
+          <option>Entry Level</option>
+          <option>Mid Level</option>
+          <option>Senior Level</option>
+        </select>
+
+        <label>Status:</label>
+        <select>
+          <option>Active</option>
+          <option>Closed</option>
+        </select>
+
+        <button type="submit">Post Job</button>
+      </form>
+    </div>
+
+    <!-- Section 2: Manage Jobs -->
+    <div class="section" id="manageJobsSection">
+      <h2>Manage Jobs</h2>
+      <div class="job-card">
+        <h3>Frontend Developer</h3>
+        <p><strong>Status:</strong> Active</p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript, React</p>
+        <button>Edit</button>
+        <button>Close</button>
+        <a href="view-applicants.html" class="view-btn">View Applicants</a>
+      </div>
+      <div class="job-card">
+        <h3>Data Analyst</h3>
+        <p><strong>Status:</strong> Active</p>
+        <p><strong>Skills:</strong> Python, SQL, Excel</p>
+        <button>Edit</button>
+        <button>Close</button>
+        <a href="view-applicants.html" class="view-btn">View Applicants</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.basic-info h2 {
+  margin: 0;
+  color: #0288d1;
+}
+
+.basic-info p {
+  margin: 4px 0;
+}
+
+/* Section Styling */
+.section {
+  margin-top: 20px;
+}
+
+.skills-list, .certificates-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project-card {
+  background-color: #e0f7fa;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.project-card h4 {
+  margin: 0 0 5px 0;
+  color: #00796b;
+}
+
+/* Job Readiness Score Bar */
+.score-bar {
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 25px;
+  width: 100%;
+}
+
+.score-fill {
+  background-color: #0288d1;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+/* Buttons */
+button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #00796b;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+a {
+  color: #0288d1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

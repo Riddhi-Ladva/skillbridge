@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - SkillBridge</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+  <div class="admin-container">
+    <h1>Welcome, Admin 👑</h1>
+
+    <!-- Section 1: Manage Users -->
+    <div class="section" id="manageUsersSection">
+      <h2>Manage Users</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Riddhi Ladva</td>
+            <td>riddhi@example.com</td>
+            <td>Candidate</td>
+            <td>
+              <button>Edit</button>
+              <button>Block</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Harsh Manek</td>
+            <td>harsh@example.com</td>
+            <td>Candidate</td>
+            <td>
+              <button>Edit</button>
+              <button>Block</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Priya Sharma</td>
+            <td>priya@example.com</td>
+            <td>Recruiter</td>
+            <td>
+              <button>Edit</button>
+              <button>Block</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Section 2: Manage Jobs -->
+    <div class="section" id="manageJobsSection">
+      <h2>Manage Jobs</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Job Title</th>
+            <th>Posted By</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Frontend Developer</td>
+            <td>Priya Sharma</td>
+            <td>Active</td>
+            <td>
+              <button>Edit</button>
+              <button>Close</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Data Analyst</td>
+            <td>Priya Sharma</td>
+            <td>Active</td>
+            <td>
+              <button>Edit</button>
+              <button>Close</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Section 3: Manage Career Paths / Skills -->
+    <div class="section" id="manageSkillsSection">
+      <h2>Manage Career Paths / Skills</h2>
+      <form>
+        <label>Job Role:</label>
+        <input type="text" placeholder="Frontend Developer">
+
+        <label>Required Skills (comma separated):</label>
+        <input type="text" placeholder="HTML, CSS, JavaScript, React">
+
+        <button type="submit">Add / Update Role</button>
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>
