@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Login | SkillBridge</title>
     <link rel="stylesheet" href="login.css" />
+    <script src="login.js" defer></script>
   </head>
   <body>
     <div class="login-wrapper">
@@ -11,12 +12,12 @@
         <h2>Welcome Back 👋</h2>
         <p class="subtitle">Login to continue your SkillBridge journey</p>
 
-        <form>
+        <form id="login">
           <label>Email</label>
-          <input type="email" placeholder="you@example.com" required />
+          <input name="email" type="email" placeholder="you@example.com" required />
 
           <label for="role">Role</label>
-          <select id="role" style="color: blue;">
+          <select name="role" id="role" style="color: blue;">
             <option value="">--Select--</option>
             <option value="candidate">Candidate</option>
             <option value="recruiter">Recruiter</option>
@@ -24,13 +25,13 @@
           </select><br/><br/>
 
           <label>Password</label>
-          <input type="password" placeholder="••••••••" required />
+          <input name="password" type="password" placeholder="••••••••" required />
 
           <div class="options">
             <a href="#">Forgot password?</a>
           </div>
 
-          <button type="submit">Login</button>
+          <button id="loginBtn" type="submit">Login</button>
         </form>
 
         <p class="signup-text">
